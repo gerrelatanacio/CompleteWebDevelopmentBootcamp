@@ -1,3 +1,17 @@
+#product-overview {
+    background: url("freedom-day.jpg") no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 700px;
+    padding: 20px;
+}
+
+#product-overview h1 {
+    margin: 0;
+    color: rgb(252, 146, 46);
+    font-size: xx-large;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -7,17 +21,29 @@ body {
     margin: 0;
 }
 
-.main-header{
-    background: #E7F2F8;
+.main-header {
+    background: #c7e8fa;
     padding: 8px 16px;
-    width:100%;
+    width: 100%;
 }
-.main-header > div {
+
+.main-header>div {
     display: inline-block;
+    font-weight: 700;
+    vertical-align: middle;
 }
-.main-header__nav{
+
+.main-header__title {
+    color: #1DA1F2;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.main-header__nav {
     display: inline-block;
-    width: calc(100% - 130px);
+    width: calc(100% - 74px);
+    vertical-align: middle;
 }
 
 .main-header__nav-list {
@@ -25,9 +51,33 @@ body {
     text-align: right;
 }
 
-.main-header__nav-item{
+.main-header__nav-item {
     display: inline-block;
+    margin: 0px 16px;
 }
-.main-header__nav-item a{
+
+.main-header__nav-item a {
     text-decoration: none;
+    color: #0069aa;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+
+.main-header__nav-item a:hover, .main-header__nav-item a:active {
+    color: rgb(250, 39, 78);
+    font-style: italic;
+    border-bottom: 5px solid white;
+}
+
+.main-header__nav-item--cta a {
+    background-color: rgb(255, 141, 33);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-header__nav-item--cta a:hover,.main-header__nav-item--cta a:active {
+    background-color: white;
+    color: rgb(255, 141, 33);
+    border: 2px solid rgb(255, 141, 33);
 }

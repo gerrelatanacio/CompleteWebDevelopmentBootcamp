@@ -1,87 +1,127 @@
 #product-overview {
-    background: url("freedom-day.jpg") no-repeat;
-    background-size: 100%;
-    width: 100%;
-    height: 700px;
-    padding: 20px;
+  background: url("freedom-day.jpg") no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 700px;
+  padding: 20px;
 }
 
 #product-overview h1 {
-    margin: 0;
-    color: rgb(252, 146, 46);
-    font-size: xx-large;
+  margin: 0;
+  color: rgb(252, 146, 46);
+  font-size: xx-large;
 }
 
-.section-title{
-    color: mediumspringgreen;
+.plan_list{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.section-title {
+  color: mediumspringgreen;
+  text-align: center;
 }
 
-* {
-    box-sizing: border-box;
+.product {
+  background: #d5ffdc;
+  text-align: center;
+  padding: 16px;
+  margin: 10px;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
+.product--highlighted {
+  background: #19b84c;
+  color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-.main-header {
-    background: #c7e8fa;
-    padding: 8px 16px;
-    width: 100%;
+.product__title {
+  color: rgb(255, 166, 0);
+  font-size: 30px;
 }
 
-.main-header>div {
-    display: inline-block;
-    font-weight: 700;
-    vertical-align: middle;
+.product__price {
+  color: rgb(77, 77, 77);
 }
 
-.main-header__title {
-    color: #1DA1F2;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 22px;
+.product__recommended {
+  background: white;
+  color: #19b84c;
+  padding: 8px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
 }
 
-.main-header__nav {
-    display: inline-block;
-    width: calc(100% - 74px);
-    vertical-align: middle;
+.product--highlighted .product__title {
+  color: white;
 }
 
-.main-header__nav-list {
-    list-style: none;
-    text-align: right;
+.product__features {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-.main-header__nav-item {
-    display: inline-block;
-    margin: 0px 16px;
+.product__feature {
+  margin: 16px 0px;
 }
 
-.main-header__nav-item a {
-    text-decoration: none;
-    color: #0069aa;
-    font-weight: bold;
-    padding: 5px 0px;
+.button {
+  background: rgb(77, 77, 77);
+  color: white;
+  font: inherit;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid rgb(77, 77, 77);
 }
 
-.main-header__nav-item a:hover, .main-header__nav-item a:active {
-    color: rgb(230, 100, 230);
-    font-style: italic;
-    border-bottom: 5px solid white;
+.button:hover,
+.button:active {
+  background-color: white;
+  color: rgb(77, 77, 77);
 }
 
-.main-header__nav-item--cta a {
-    background-color: rgb(255, 141, 33);
-    color: white;
-    padding: 8px 16px;
-    border-radius: 8px;
+#key-features {
+  background: rgb(255, 93, 120);
+  padding: 16px;
+  margin-top: 50px;
 }
 
-.main-header__nav-item--cta a:hover,.main-header__nav-item--cta a:active {
-    background-color: white;
-    color: rgb(255, 141, 33);
-    border: 2px solid rgb(255, 141, 33);
+#key-features .section-title {
+  color: white;
+  margin: 32px;
+}
+
+.key-features__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.key-feature {
+  display: inline-block;
+  margin: 0px 16px;
+  width: 30%;
+  vertical-align: top;
+}
+
+.key-feature__image {
+  background-color: rgb(255, 189, 189);
+  width: 128px;
+  height: 128px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.key-feature__description {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: white;
 }

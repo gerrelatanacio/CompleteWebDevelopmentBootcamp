@@ -1,0 +1,81 @@
+.main{
+    padding-top: 32px;
+}
+
+.plans {
+  background: rgb(207, 255, 207);
+  padding: 32px;
+  width: 80%;
+  margin: 16px 0px;
+  border: 5px solid rgb(0, 125, 0);
+  border-left: none;
+}
+.plans:hover,.plans:active {
+    border: 5px solid red;
+    border-left: none;
+  }
+
+.plans a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 16px;
+  display: block;
+}
+
+.plan-title {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0px;
+  padding: 0;
+}
+
+.plan-subtitle {
+  color: grey;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0px;
+  padding: 0;
+}
+
+
+.plan-description {
+    background: white;
+    color: rgb(0, 125, 0); 
+    border: 2px solid rgb(0, 125, 0);
+    font-size: 20px;
+    margin: 10px 0px;
+    padding: 10px;
+  }
+
+.clearfix{
+    clear: both;
+}
+
+#free{
+    float: right;
+    border: 5px solid rgb(0, 125, 0);
+    border-right: none;
+    text-align: right;
+}
+
+#free.plans{
+    background: rgb(230, 253, 230);
+}
+
+#free.plans:hover,.plans:active {
+    border: 5px solid red;
+    border-right: none;
+  }
+
+
+#premium.plans{
+    background:rgb(1, 65, 1);
+    color: white;
+}
+
+#premium .plan-title{
+    color: white;
+}
+

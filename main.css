@@ -12,6 +12,10 @@
     font-size: xx-large;
 }
 
+.section-title{
+    color: mediumspringgreen;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -64,7 +68,7 @@ body {
 }
 
 .main-header__nav-item a:hover, .main-header__nav-item a:active {
-    color: rgb(250, 39, 78);
+    color: rgb(230, 100, 230);
     font-style: italic;
     border-bottom: 5px solid white;
 }

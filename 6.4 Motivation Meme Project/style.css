@@ -1,0 +1,29 @@
+* {
+  border: 0;
+}
+body {
+  background-color: black;
+  font-family: "Libre Baskerville";
+}
+
+img {
+  border: 5px solid white;
+  width: 100%;
+}
+
+.motivationalDiv {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.description {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.postScriptum {
+  color: white;
+  text-align: center;
+}
